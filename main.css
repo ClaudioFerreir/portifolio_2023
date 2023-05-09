@@ -1,4 +1,5 @@
 /*
+baseado no site https://tamalsen.dev/
 fonte roboto mono menu
 Poppins, sans-serif -> titulo
 */
@@ -8,4 +9,66 @@ Poppins, sans-serif -> titulo
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/*estilo do body*/
+header {
+  background-color: #000;
+}
+
+header .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*estilo do header*/
+
+.front-page {
+  background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container nav{
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header {
+  color: #fff;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-title {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.main-title h2{
+  font-size: 80px;
+}
+
+.main-title p{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 1px 3px 11px rgba(0,0,0,0.3);
 }
